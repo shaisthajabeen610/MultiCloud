@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse,HttpHeaders } from '@angular/common/http';
 import { catchError, Observable,retry,Subject, throwError } from 'rxjs';
 import { BaseUrl,EndPoints } from '../app/api.urls.constant';
-import { archComplexityModel } from '../app/archComplexity.modules';
+//import { archComplexityModel } from '../app/archComplexity.modules';
 @Injectable({
   providedIn: 'root'
 })
