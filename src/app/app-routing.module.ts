@@ -6,7 +6,7 @@ import { PricingComponent } from './pricing/pricing.component';
 
 const routes: Routes = [
   {
-    path:'',pathMatch: 'full' ,redirectTo:'/select-file'
+    path:'',pathMatch: 'full' ,redirectTo:'/cloud_central'
   },
   {path : 'cloud_central', component:FirstPageComponent},
   {path: 'pricing',component:PricingComponent}
