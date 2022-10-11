@@ -8,7 +8,7 @@ const routes: Routes = [
   {
     path:'',pathMatch: 'full' ,redirectTo:'/select-file'
   },
-  {path : 'select-file', component:FirstPageComponent},
+  {path : 'cloud_central', component:FirstPageComponent},
   {path: 'pricing',component:PricingComponent}
   
 ];
