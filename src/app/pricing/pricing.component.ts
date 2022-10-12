@@ -36,6 +36,8 @@ export class PricingComponent implements OnInit,Series {
   meterName: any;
   var:any;
   pdfmake: any;
+  showPopup: Boolean = true;
+  showPricing: boolean = false ;
 
   constructor(
     private activatedRoute:ActivatedRoute,
@@ -85,6 +87,10 @@ export class PricingComponent implements OnInit,Series {
 
   ngOnInit() {
     ///passing parameters as input from a file
+    setTimeout(()=>{
+      this.showPopup = false;
+      this.showPricing = true;
+    }, 3000);
     this.suggestion = "Google"
     this.fillData();
     console.log("in pricing")
