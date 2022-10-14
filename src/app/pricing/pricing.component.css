@@ -261,3 +261,19 @@
       width:fit-content;
       margin : 0 auto
     }
+  .pdf-btn{
+    /* color: skyblue; */
+    align-items: center;
+    justify-content: center;
+  }
+  .download{
+    background-color: skyblue;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 5px;
+    padding : 10px 10px;
+    margin: 20px 650px ;
+    width: 150px;
+
+  }

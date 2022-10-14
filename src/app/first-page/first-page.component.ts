@@ -51,6 +51,8 @@ readThis(inputValue: any): void {
      // console.log(this.sendInputParams)
       this.fileString = myReader.result as string;
     };
+
+    
      
     myReader.readAsText(file);
   }
