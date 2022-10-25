@@ -5,17 +5,17 @@ import { PricingComponent } from './pricing/pricing.component';
 //import { PricingComponent } from './pricing/pricing.component';
 
 const routes: Routes = [
-  {
-    path:'',pathMatch: 'full' ,redirectTo:'/cloud_central'
-  },
-  {path : 'cloud_central', component:FirstPageComponent},
+  // {
+  //   path:'',pathMatch: 'full' ,redirectTo:'/cloud_central'
+  // },
+  {path : '', component:FirstPageComponent},
   {path: 'pricing',component:PricingComponent}
   
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { useHash: false, onSameUrlNavigation: 'reload' })  
+    RouterModule.forRoot(routes, { useHash: true, onSameUrlNavigation: 'reload' })  
     
   ],
   exports: [RouterModule],
